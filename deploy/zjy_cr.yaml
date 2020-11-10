@@ -1,0 +1,7 @@
+apiVersion: samplecontroller.k8s.io/v1alpha1
+kind: ZjyController
+metadata:
+  name: example-zjy
+spec:
+  deploymentName: example-zjy
+  replicas: 1
